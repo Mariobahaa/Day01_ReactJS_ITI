@@ -1,5 +1,5 @@
 body{
-  background-color: black;
+  background-color: rgb(3, 3, 80);
   text-align: center;
 }
 
@@ -32,4 +32,8 @@ input[type=text]{
   border-style: solid;
   border-color: rgb(248, 34, 106);
   color: rgb(255, 203, 203);
+}
+
+h1{
+  color: rgb(248, 34, 106);
 }
