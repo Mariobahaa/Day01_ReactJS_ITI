@@ -6,9 +6,10 @@ class Second extends Component{
         super();
         this.ind = 0;
         this.srcs = ['./1.jpg', './2.jpg','./3.jpg'];
+        this.btnEnabled = true;
         this.state={
             source :this.srcs[0],
-            btnEnabled: true
+         
         };
         console.log(this.source);
     }
@@ -24,8 +25,9 @@ class Second extends Component{
                 this.setState({source: this.srcs[this.ind]});
             }}>Prev</button>
             <button onClick= {()=>{
-                if(this.state.btnEnabled ){
-                this.setState({btnEnabled:false});
+                if(this.btnEnabled ){
+                 this.btnEnabled = false;
+                
                 
                 this.timer = setInterval(()=>{
                 this.ind++;
@@ -36,9 +38,9 @@ class Second extends Component{
                 }
             }}>Slide</button>
             <button onClick= {()=>{
-                if(!this.state.btnEnabled){
+                if(!this.btnEnabled){
                 clearInterval(this.timer);
-                this.setState({btnEnabled:false});
+                this.btnEnabled = false;
                 }
             }
             }>Stop</button>
