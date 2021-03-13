@@ -1,0 +1,35 @@
+body{
+  background-color: black;
+  text-align: center;
+}
+
+button{
+  background-color:rgb(73, 130, 236);
+  border-radius: 7px;
+  border: 3px;
+  border-style: solid;
+  border-color: rgb(248, 34, 106);
+  width: 8%;
+  color: rgb(255, 203, 203);
+  font-weight: bolder;
+  margin: 1%;
+  font-size: large;
+}
+
+img{
+  width: 40%;
+  height: 30%;
+}
+
+input[type=text]{
+  background-color:rgb(73, 130, 236);
+  width: 30%;
+  font-weight: bolder;
+  margin: 1%;
+  font-size: large;
+  border-radius: 7px;
+  border: 3px;
+  border-style: solid;
+  border-color: rgb(248, 34, 106);
+  color: rgb(255, 203, 203);
+}

@@ -34,7 +34,7 @@ class Second extends Component{
                 this.ind%=this.srcs.length;
                 this.setState({source: this.srcs[this.ind]});
 
-                },5000);
+                },2000);
                 }
             }}>Slide</button>
             <button onClick= {()=>{
